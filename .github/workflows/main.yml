@@ -1,0 +1,10 @@
+name: Greet Everyone
+
+on: [push]
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: github-runner-windows
+        run: echo "Hello, world!"
